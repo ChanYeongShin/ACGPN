@@ -1,0 +1,13 @@
+DeepFashion_Try_On/checkpoints/
+DeepFashion_Try_On/sample/
+DeepFashion_Try_On/runs/
+DeepFashion_Try_On/test/
+DeepFashion_Try_On/Data_preprocessing/
+DeepFashion_Try_On/ACGPN_train/runs/
+DeepFashion_Try_On/ACGPN_inference/checkpoints/
+DeepFashion_Try_On/ACGPN_inference/sample/
+DeepFashion_Try_On/ACGPN_inference/runs/
+.idea/
+
+__pycache__/
+*.pth
