@@ -43,7 +43,7 @@ def make_dataset_category(dir, textfile):
         line = t.readline()
         if not line: break
         category = line[9:]
-        if category == '1\n' or category == '2\n' or category == '3\n':
+        if category == '0\n' or category == '1\n' or category == '2\n' or category == '3\n':
             short_sleeve.append(line[0:6])
         elif category == '4\n' or category == '5\n' or category == '6\n' or category == '7\n':
             long_sleeve.append(line[0:6])
